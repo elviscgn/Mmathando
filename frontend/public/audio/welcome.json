@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "soundFile": "/Users/elvischege/Downloads/Rhubarb-Lip-Sync-1.14.0-macOS/../../Desktop/Personal projects/Mmathando/frontend/public/audio/test.wav",
+    "duration": 6.24
+  },
+  "mouthCues": [
+    { "start": 0.00, "end": 0.10, "value": "X" },
+    { "start": 0.10, "end": 0.21, "value": "C" },
+    { "start": 0.21, "end": 0.42, "value": "E" },
+    { "start": 0.42, "end": 0.49, "value": "F" },
+    { "start": 0.49, "end": 0.56, "value": "C" },
+    { "start": 0.56, "end": 0.63, "value": "G" },
+    { "start": 0.63, "end": 0.77, "value": "B" },
+    { "start": 0.77, "end": 1.05, "value": "C" },
+    { "start": 1.05, "end": 1.19, "value": "B" },
+    { "start": 1.19, "end": 1.33, "value": "C" },
+    { "start": 1.33, "end": 1.40, "value": "E" },
+    { "start": 1.40, "end": 1.47, "value": "C" },
+    { "start": 1.47, "end": 1.61, "value": "E" },
+    { "start": 1.61, "end": 1.82, "value": "F" },
+    { "start": 1.82, "end": 2.35, "value": "X" },
+    { "start": 2.35, "end": 2.42, "value": "G" },
+    { "start": 2.42, "end": 2.48, "value": "C" },
+    { "start": 2.48, "end": 2.76, "value": "B" },
+    { "start": 2.76, "end": 2.90, "value": "C" },
+    { "start": 2.90, "end": 3.04, "value": "B" },
+    { "start": 3.04, "end": 3.32, "value": "F" },
+    { "start": 3.32, "end": 3.87, "value": "X" },
+    { "start": 3.87, "end": 3.94, "value": "G" },
+    { "start": 3.94, "end": 4.00, "value": "E" },
+    { "start": 4.00, "end": 4.21, "value": "F" },
+    { "start": 4.21, "end": 4.61, "value": "X" },
+    { "start": 4.61, "end": 4.65, "value": "C" },
+    { "start": 4.65, "end": 4.69, "value": "B" },
+    { "start": 4.69, "end": 4.76, "value": "F" },
+    { "start": 4.76, "end": 5.04, "value": "B" },
+    { "start": 5.04, "end": 5.12, "value": "A" },
+    { "start": 5.12, "end": 5.26, "value": "C" },
+    { "start": 5.26, "end": 5.54, "value": "E" },
+    { "start": 5.54, "end": 5.68, "value": "B" },
+    { "start": 5.68, "end": 6.24, "value": "X" }
+  ]
+}
