@@ -8,7 +8,7 @@ Follow these steps in your terminal to start the API:
 
 1. Navigate to Project Root
 
-cd backend
+`cd backend`
 
 
 2. Activate Environment
@@ -16,10 +16,10 @@ cd backend
 You must activate the virtual environment (venv) where the libraries were installed.
 
 # macOS / Linux / Git Bash
-source venv/bin/activate 
+`source venv/bin/activate`
 
 # Windows PowerShell
-.\venv\Scripts\Activate.ps1
+`.\venv\Scripts\Activate.ps1`
 
 
 3. Configure API Key
@@ -34,7 +34,7 @@ Fill in the value for GEMINI_API_KEY (if testing) or TOGETHER_API_KEY (for final
 
 Execute the command below. The server will automatically reload when you make changes to Python files.
 
-uvicorn app.main:app --reload
+`uvicorn app.main:app --reload`
 
 
 ✅ Verification and Testing
