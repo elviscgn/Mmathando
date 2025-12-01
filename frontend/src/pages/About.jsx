@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div style={{ paddingTop: "60px" }}>
       <Navbar />
-      <h1>About Mmathando</h1><br />
+      <h1>About</h1><br />
 
       <p>
         Mmathando is a lighweight health assistant with a 3D avatar , text + voice responses, and quick  daily  check-ins. Built with React + TypeScript and bFastAPI, it uses Llama for reasoning and guidance.</p><br />
