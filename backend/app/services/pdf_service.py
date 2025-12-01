@@ -9,5 +9,6 @@ def extract_text_from_pdf(pdf_path):
             text += page.extract_text() or ""
     return text
 
+
     
 
