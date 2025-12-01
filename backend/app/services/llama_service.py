@@ -72,15 +72,6 @@ class LlamaClient:
 
           
 
-
-
-
-
-
-
-
-
-
 from app.services.llama_service import LlamaClient
 client = LlamaClient() 
 client.generate_content(settings.SYSTEM_PROMPT, "I have a sore throat")
