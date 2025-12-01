@@ -4,4 +4,5 @@ python-multipart
 python-dotenv
 requests
 pypdf       
-gTTS        
+gTTS      
+google
