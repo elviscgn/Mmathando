@@ -44,10 +44,13 @@ async def chat_with_mmathando(request: ChatRequest):
     try:
         
         user_text = request.user_input
+        selected_language = request.language
 
         ai_response_text = ai_client.generate_content(
             system_prompt=MMATHANDO_PROMPT,
-            user_input=user_text
+            user_input=user_text,
+            source_lang=selected_language,
+            target_lang=selected_language
         )
 
         return ChatResponse(
