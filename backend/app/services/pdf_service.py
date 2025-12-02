@@ -1,13 +1,16 @@
 import pypdf
-from pypdf import PDFReader
+from pypdf import PdfReader
 
-def extract_text_from_pdf(pdf_path):
+def extract_text_from_pdf(filename):
     text = ""
-    with open(pdf_path, "rb") as file:
-        reader = pypdf.PDFReader(file)
+    with open(filename, "rb") as file:
+        reader = pypdf.PdfReader(file)
         for page in reader.pages:
             text += page.extract_text() or ""
     return text
+
+
+
 
 
     
