@@ -7,19 +7,19 @@ export default function Privacy() {
       <h1>Privacy Policy</h1><br />
       <p>Mmathando is commited to protecting your privacy and ensuring your personal health and wellness information is handled safely.This Privacy Policy explans what data we collect, how we use it, and right as a user</p>
       
-      <hr />
+      
 
       <h2>1. Information we may collect</h2>
-      <p>When you use Mmathabo, we may collect:</p>
+      <p>When you use Mmathando, we may collect:</p>
       <ul>
-        <li><strong>Personal information:</strong>name, age, email, or login details.</li>
-        <li><strong>Health-related information:sleep, hydration, mood, symptoms, and wellness goals.</strong></li>
-        <li><strong>Location data:</strong>if using "Nearest Medical facilities" feature</li>
+        <li><strong>Personal information: </strong>Name, Age, Email, or Login details.</li>
+        <li><strong>Health-related information: </strong>Sleep, Hydration, Mood, Symptoms, and Wellness Goals.</li>
+        <li><strong>Location data: </strong>If using "Nearest Medical facilities" feature.</li>
     
       </ul>
-      <p>We do not collect information you donot provide or use without your consent</p>
+      <p>We do not collect information you do not provide or use  it without your consent.</p>
 
-      <hr />
+      
 
       <h2>3. Data sharing and Third Parties</h2>
       <ul>
@@ -31,7 +31,7 @@ export default function Privacy() {
       <p><strong>Message Processing and Privacy:</strong>
       When you send a message , it is fowarded to our AI model (Llama) to generate a response. your real name is <strong>never</strong>sent to the model. Instead, we replace your name with a placeholder before sending it.When the response is returned, we replace the placeholder with your actual name on your screen. This ensures the model never sees personal identity data</p>
 
-     <hr />
+     
      
      <h2>3. Data sharing and Third Parties</h2>
      <ul>
@@ -45,7 +45,7 @@ export default function Privacy() {
       </li>
      </ul>
 
-     <hr />
+     
 
      <h2>4. Data Storage and Security</h2>
      <ul>
@@ -55,12 +55,12 @@ export default function Privacy() {
       <li>Data used for analytics or AI processing is anonymized</li>
      </ul>
 
-     <hr />
+     
 
      <h2>5. Retention of Data</h2>
      <p>We retain your data only as long as necessary to provide the service or comply legal  obligation. You may request deletion</p>
 
-     <hr />
+     
 
      <h2>6. Your Rights</h2>
      <ul>
@@ -70,12 +70,12 @@ export default function Privacy() {
       <li>Withdraw consent for data processing or location access</li>
      </ul>
     
-    <hr />
+    
 
     <h2>7. Children's Privacy</h2>
     <p>Mmathando is not intended for users under the age of 12 years. We do not knowingly collect data from children</p>
 
-    <hr />
+    
 
     <h2>8. Update to This Policy</h2>
     <p>We may update this Privacy Policy from time to time. Any chnages will be posted within the app , with effective date updated</p>

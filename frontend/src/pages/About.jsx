@@ -1,144 +1,151 @@
 import Navbar from "../components/Navbar";
+import { FaGithub } from "react-icons/fa";
 
 export default function About() {
   return (
     <div style={{ paddingTop: "60px" }}>
       <Navbar />
 
+      {/* INLINE PAGE STYLES */}
       <style>{`
-        .about-page {
-          background: #f4f9f6;
-          min-height: 100vh;
-          font-family: "Inter", sans-serif;
-          padding-top: 80px;
-        }
-
         .about-container {
           max-width: 900px;
           margin: auto;
-          padding: 30px;
-          background: white;
-          border-radius: 20px;
-          box-shadow: 0 4px 20px rgba(67, 122, 87, 0.12);
-          border: 2px solid rgba(67, 122, 87, 0.15);
+          padding: 20px;
+          font-family: "Inter", sans-serif;
         }
 
-        .title {
-          text-align: center;
-          font-size: 2.3rem;
-          color: #437A57;
+        h1 {
+          font-size: 1.05rem;
+          color: black;
           margin-bottom: 20px;
         }
 
-        .text {
-          line-height: 1.7;
-          color: #333;
-          margin-bottom: 18px;
-        }
-
         .section-title {
+          font-size: 1.05rem;
+          color: black;
           margin-top: 30px;
-          font-size: 1.6rem;
-          color: #5A9367;
+          margin-bottom: 12px;
+          font-weight: 600;
         }
 
-        .cute-list {
-          background: #f0f7f3;
+        .info-box {
+          background: #F3F4F6;
           padding: 15px 20px;
-          border-radius: 15px;
-          border-left: 5px solid #437A57;
+          border-radius: 12px;
+          border: 1px solid #E5E7EB;
+          margin-bottom: 18px;
+          line-height: 1.6;
+        }
+
+        .offer-list {
+          background: #F3F4F6;
+          padding: 15px 20px;
+          border-radius: 12px;
+          border: 1px solid #E5E7EB;
           list-style: none;
-          margin-bottom: 25px;
         }
 
-        .cute-list li {
-          padding: 8px 0;
-          color: #333;
-        }
-
-        .team-list {
-          margin-top: 15px;
-          list-style: none;
-          padding: 0;
-        }
-
-        .team-list li {
+        .offer-list li {
           padding: 8px 0;
           font-size: 1rem;
         }
 
-        .team-list a {
-          color: #437A57;
-          text-decoration: none;
+        /* TEAM GRID */
+        .team-grid {
+          display: flex;
+          gap: 20px;
+          margin-top: 20px;
+          flex-wrap: wrap;
+        }
+
+        .team-card {
+          background: #F3F4F6;
+          width: 160px;
+          padding: 15px;
+          border-radius: 12px;
+          border: 1px solid #E5E7EB;
+          text-align: center;
+        }
+
+        .team-name {
+          margin: 10px 0 5px 0;
           font-weight: 600;
         }
 
-        .team-list a:hover {
-          text-decoration: underline;
+        .github-icon {
+          font-size: 28px;
+          color: black;
+          margin-top: 5px;
+          cursor: pointer;
+        }
+
+        .github-icon:hover {
+          opacity: 0.7;
         }
       `}</style>
 
-      <div className="about-page">
-        <div className="about-container">
-          <h1 className="title">About Mmathando</h1>
+      <div className="about-container">
+        <h1>About</h1>
 
-          <p className="text">
-            Mmathando is a lightweight health assistant with a 3D avatar, text + voice
-            responses, and quick daily check-ins. Built with React + TypeScript and FastAPI,
-            it uses Llama for reasoning and guidance.
-          </p>
+        <div className="info-box">
+          Mmathando is a lightweight health assistant with a 3D avatar, text + voice
+          responses, and quick daily check-ins. Built with React + TypeScript and FastAPI,
+          it uses Llama for reasoning and guidance.
+        </div>
 
-          <p className="text">
-            Mmathando was created to make everyday health guidance more accessible, calm,
-            and supportive. Many people struggle with knowing whether symptoms are serious,
-            when to seek medical care, or how to maintain healthy habits. We built
-            Mmathando to offer clear, non-diagnostic guidance, simple daily check-ins,
-            and reassurance that helps users feel informed and confident.
-          </p>
+        <div className="info-box">
+          Mmathando was created to make everyday health guidance more accessible, calm,
+          and supportive. Many people struggle with knowing whether symptoms are serious,
+          when to seek medical care, or how to maintain healthy habits. Mmathando offers
+          gentle, non-diagnostic guidance and reassurance to help people feel safer and
+          more informed.
+        </div>
 
-          <h2 className="section-title">What Mmathando Provides</h2>
-          <ul className="cute-list">
-            <li>Symptom-based guidance (non-diagnostic)</li>
-            <li>Daily wellness tracking</li>
-            <li>Calm explanations for procedures and recovery</li>
-            <li>Nearby clinic/hospital locations</li>
-            <li>Hotline support for urgent concerns</li>
-          </ul>
+        <h2 className="section-title">What Mmathando Offers</h2>
 
-          <h2 className="section-title">Features</h2>
-          <ul className="cute-list">
-            <li>3D Avatar</li>
-            <li>Chat + Voice responses</li>
-            <li>Daily Check-in</li>
-            <li>Health guidance & recovery suggestions</li>
-            <li>Stats Panel for wellness overview</li>
-          </ul>
+        <ul className="offer-list">
+          <li> Symptom-based guidance (non-diagnostic)</li>
+          <li> Daily wellness check-ins</li>
+          <li> Calm explanations for recovery & procedures</li>
+          <li> Nearby clinic/hospital suggestions</li>
+          <li> Hotline support for urgent concerns</li>
+        </ul>
 
-          <h2 className="section-title">Our Team</h2>
-          <ul className="team-list">
-            <li>
-              Nothando Ndlovu –{" "}
-              <a href="https://github.com/nothando-debug" target="_blank">Github</a>
-            </li>
+        <h2 className="section-title">Our Team</h2>
 
-            <li>
-              Elvis Chege –{" "}
-              <a href="https://github.com/elviscgn" target="_blank">Github</a>
-            </li>
+        <div className="team-grid">
+          <div className="team-card">
+            <div className="team-name">Nothando Ndlovu</div>
+            <a href="https://github.com/nothando-debug" target="_blank">
+              <FaGithub className="github-icon" />
+            </a>
+          </div>
 
-            <li>
-              Mmabatho Thathana –{" "}
-              <a href="https://github.com/Mmabatho-21" target="_blank">Github</a>
-            </li>
+          <div className="team-card">
+            <div className="team-name">Elvis Chege</div>
+            <a href="https://github.com/elviscgn" target="_blank">
+              <FaGithub className="github-icon" />
+            </a>
+          </div>
 
-            <li>
-              Mphele Moswane –{" "}
-              <a href="https://github.com/Mphele" target="_blank">Github</a>
-            </li>
-          </ul>
+          <div className="team-card">
+            <div className="team-name">Mmabatho Thathana</div>
+            <a href="https://github.com/Mmabatho-21" target="_blank">
+              <FaGithub className="github-icon" />
+            </a>
+          </div>
+
+          <div className="team-card">
+            <div className="team-name">Mphele Moswane</div>
+            <a href="https://github.com/Mphele" target="_blank">
+              <FaGithub className="github-icon" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
 

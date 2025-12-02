@@ -19,6 +19,7 @@ const MedicalFacility = () => {
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
+        
         const { latitude, longitude } = position.coords;
         setCurrentPosition({ lat: latitude, lng: longitude });
         fetchNearbyFacilities(latitude, longitude);
