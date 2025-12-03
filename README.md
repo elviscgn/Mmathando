@@ -42,19 +42,20 @@ It doesn’t replace doctors but helps users make informed, actionable decisions
 ---
 
 ## Tech Stack
-
+- **LLM:** Llama 
 - **Frontend:** React + TypeScript  
 - **Backend:** FastAPI  
-- **LLM:** Llama  
+ 
 
 ---
 
 ## Team
-
-- Nothando Ndlovu **(nothando-debug)** – [Github](https://github.com/nothando-debug) 
-- Elvis Chege **(elviscgn)** – [Github](https://github.com/elviscgn) 
 - Mmabatho **(Mmabatho-21)** – [Github](https://github.com/Mmabatho-21 )
+- Nothando Ndlovu **(nothando-debug)** – [Github](https://github.com/nothando-debug) 
+- Elvis Chege **(elviscgn)** – [Github](https://github.com/elviscgn)
 - Mphele Moswane **(Mphele)** – [Github](https://github.com/Mphele)
+
+
 
 ---
 
