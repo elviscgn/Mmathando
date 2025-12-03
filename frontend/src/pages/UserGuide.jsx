@@ -19,7 +19,7 @@ export default function Privacy() {
       <section>
         <h2>🎥 Watch the Tutorial</h2>
         <div style={{ marginTop: "10px" }}>
-          {/* Replace the link with our actual YouTube video link when ready */}
+          {/* Replace the link with our actual YouTube video on the src*/}
           <iframe
             width="560"
             height="315"
