@@ -40,8 +40,8 @@ IV. RESPONSE TEMPLATE (Use this exact format for all replies):
 [ONE Clarifying Question]
 """
     LLAMA_API_KEY: str = os.getenv("TOGETHER_API_KEY", "dummy_llama_key")
-    LLAMA_CHAT_MODEL: str = os.getenv("LLAMA_CHAT_MODEL", "meta-llama/Llama-3.2-11B-Instruct-Turbo")
-    LLAMA_API_URL: str = os.getenv("LLAMA_API_URL", "https://api.together.xyz/v1/chat/completions")
+    LLAMA_CHAT_MODEL: str = os.getenv("LLAMA_CHAT_MODEL")
+    LLAMA_API_URL: str = os.getenv("LLAMA_API_URL")
 
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "dummy_gemini_key")
     GEMINI_CHAT_MODEL: str = os.getenv("GEMINI_CHAT_MODEL", "gemini-2.5-flash") 
