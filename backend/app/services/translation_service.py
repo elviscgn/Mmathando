@@ -2,7 +2,7 @@ from deep_translator import GoogleTranslator
 
 SA_LANG_CODES = {
     "zulu": "zu",
-    "sotho": "st",  
+    "sepedi": "nso",  
     "afrikaans": "af",
     "english": "en",
     'swahili':'sw'
