@@ -2,13 +2,16 @@
   <img src="public/logo.png" height="200px" alt="mmathando">
 </p>
 
-Mmathando is a lightweight health assistant with a 3D avatar, text + voice responses, and quick daily check-ins. Built with React + JavaScript and FastAPI (Python), it uses Llama for reasoning and guidance.
-
 ---
 
 <p align="center">
   <img src="frontend/public/mockup-ui.png" alt="mmathando">
 </p>
+
+Mmathando is a lightweight health assistant with a 3D avatar, text + voice responses, and quick daily check-ins. Built with React + JavaScript and FastAPI (Python), it uses Llama for reasoning and guidance.
+
+---
+
 
 ## The problem
 
