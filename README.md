@@ -6,6 +6,10 @@ Mmathando is a lightweight health assistant with a 3D avatar, text + voice respo
 
 ---
 
+<p align="center">
+  <img src="frontend/public/mockup-ui.png" alt="mmathando">
+</p>
+
 ## The problem
 
 People often struggle to know if symptoms are serious, when to visit a clinic or hospital, or how to track sleep, mood, and hydration. Medical anxiety and unclear access to care make it harder.
