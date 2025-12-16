@@ -94,7 +94,7 @@ uvicorn main:app --reload
 
 ## Acknowledgements
 
-- **Meta Llama** – powering the AI reasoning engine and partnering with WeThinkCOde.
+- **Meta Llama** – powering the AI reasoning engine and partnering with WeThinkCode.
 - **WeThinkCode_** – for the opportunity to study tuition free and linking us with hackathons like this.
 
 
