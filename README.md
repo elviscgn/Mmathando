@@ -25,7 +25,7 @@ Mmathando provides:
 - Nearby clinic/hospital locations
 - Hotline support for urgent concerns
 
-It doesn’t replace doctors but helps users make informed, actionable decisions quickly and safely.
+It does not replace doctors but helps users make informed, actionable decisions quickly and safely.
 
 ---
 
